@@ -1,84 +1,114 @@
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+    <title>Portfolio</title>
 
-        <!-- Fonts -->
-        <link href="https://fonts.bunny.net/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+    <!-- Fonts -->
+    <link href="https://fonts.bunny.net/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
 
-        <!-- Styles -->
+    <!-- Styles -->
 
-        @vite('resources/css/app.css')
+    @vite('resources/css/app.css')
 
-    </head>
-    <body class="antialiased">
-        <div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center py-4 sm:pt-0">
-            <div class="flex-row mt-4 ">
-                <div class="max-w-6xl mx-auto sm:px-6 lg:px-8">
-                    <h1 class="text-3xl font-semibold text-red-500 ">Porfolio</h1>
-                    <h2 class="text-gray-600">David Baekeland</h2>
-                </div>
-                <div class="max-w-6xl mx-auto sm:px-6 lg:px-8">
-                    <div class="mt-8 bg-white dark:bg-gray-800 overflow-hidden shadow sm:rounded-lg">
-                        <div class="grid grid-cols-1 md:grid-cols-2">
-                            <div class="p-6">
-                                <div class="flex items-center">
-                                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" class="w-8 h-8 text-gray-500"><path d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path></svg>
-                                    <div class="ml-4 text-lg leading-7 font-semibold"><a href="https://laravel.com/docs" class="underline text-gray-900 dark:text-white">PHP / Laravel</a></div>
-                                </div>
+</head>
+<body class="antialiased">
+<div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center py-4 sm:pt-0">
+    <div class="flex-row mt-4 ">
+        <a href="{{ route('home') }}">
+            <div class="max-w-6xl mx-auto sm:px-6 lg:px-8" >
+                <h1 class="text-3xl font-semibold text-red-500 ">PHP/Laravel</h1>
+                <h2 class="text-gray-600">David Baekeland</h2>
+            </div>
+        </a>
 
-                                <div class="ml-12">
-                                    <div class="mt-2 text-gray-600 dark:text-gray-400 text-sm">
-                                        Laravel has wonderful, thorough documentation covering every aspect of the framework. Whether you are new to the framework or have previous experience with Laravel, we recommend reading all of the documentation from beginning to end.
-                                    </div>
-                                </div>
-                            </div>
+        <div class="max-w-6xl mx-auto sm:px-6 lg:px-8">
+            <div class="mt-8 bg-white dark:bg-gray-800 overflow-hidden shadow sm:rounded-lg">
+                <div>
+                    <div class="p-6">
+                        <img src="{{asset('storage/hln.png')}}" alt="Foto van B-Audio" class="mb-4 sm:rounded-lg">
+                        <div class="ml-4 text-lg leading-7 font-semibold">B-Audio (work in progress)</div>
 
-                            <div class="p-6 border-t border-gray-200 dark:border-gray-700 md:border-t-0 md:border-l">
-                                <div class="flex items-center">
-                                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" class="w-8 h-8 text-gray-500"><path d="M3 9a2 2 0 012-2h.93a2 2 0 001.664-.89l.812-1.22A2 2 0 0110.07 4h3.86a2 2 0 011.664.89l.812 1.22A2 2 0 0018.07 7H19a2 2 0 012 2v9a2 2 0 01-2 2H5a2 2 0 01-2-2V9z"></path><path d="M15 13a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
-                                    <div class="ml-4 text-lg leading-7 font-semibold"><a href="https://laracasts.com" class="underline text-gray-900 dark:text-white">Laracasts</a></div>
-                                </div>
+                        <div class="ml-4">
+                            <div class="mt-2 text-gray-600 dark:text-gray-400 text-sm">
+                                <p>Momenteel ben ik voor <span class="text-red-500">B-Audio</span> , een wetenschappelijke organisatie, een website aan het ontwikkelen. Het doel van deze website is om een <span class="text-red-500">portfolio</span>  te maken waarbij leden gemakkelijk wetenschappelijke kennis over Audiologie en Logepedie kunnen bijhouden en delen.</p>
 
-                                <div class="ml-12">
-                                    <div class="mt-2 text-gray-600 dark:text-gray-400 text-sm">
-                                        Laracasts offers thousands of video tutorials on Laravel, PHP, and JavaScript development. Check them out, see for yourself, and massively level up your development skills in the process.
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="p-6 border-t border-gray-200 dark:border-gray-700">
-                                <div class="flex items-center">
-                                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" class="w-8 h-8 text-gray-500"><path d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z"></path></svg>
-                                    <div class="ml-4 text-lg leading-7 font-semibold"><a href="https://laravel-news.com/" class="underline text-gray-900 dark:text-white">Laravel News</a></div>
-                                </div>
-
-                                <div class="ml-12">
-                                    <div class="mt-2 text-gray-600 dark:text-gray-400 text-sm">
-                                        Laravel News is a community driven portal and newsletter aggregating all of the latest and most important news in the Laravel ecosystem, including new package releases and tutorials.
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="p-6 border-t border-gray-200 dark:border-gray-700 md:border-l">
-                                <div class="flex items-center">
-                                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" class="w-8 h-8 text-gray-500"><path d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
-                                    <div class="ml-4 text-lg leading-7 font-semibold text-gray-900 dark:text-white">Vibrant Ecosystem</div>
-                                </div>
-
-                                <div class="ml-12">
-                                    <div class="mt-2 text-gray-600 dark:text-gray-400 text-sm">
-                                        Laravel's robust library of first-party tools and libraries, such as <a href="https://forge.laravel.com" class="underline">Forge</a>, <a href="https://vapor.laravel.com" class="underline">Vapor</a>, <a href="https://nova.laravel.com" class="underline">Nova</a>, and <a href="https://envoyer.io" class="underline">Envoyer</a> help you take your projects to the next level. Pair them with powerful open source libraries like <a href="https://laravel.com/docs/billing" class="underline">Cashier</a>, <a href="https://laravel.com/docs/dusk" class="underline">Dusk</a>, <a href="https://laravel.com/docs/broadcasting" class="underline">Echo</a>, <a href="https://laravel.com/docs/horizon" class="underline">Horizon</a>, <a href="https://laravel.com/docs/sanctum" class="underline">Sanctum</a>, <a href="https://laravel.com/docs/telescope" class="underline">Telescope</a>, and more.
-                                    </div>
-                                </div>
+                                <p class="mt-4">Voor deze website maak ik gebruik van <span class="text-red-500">PHP</span> / <a href="https://laravel.com/" class="text-red-500 underline">Laravel</a>, <span class="text-red-500">MySQL</span>, <span class="text-red-500">PhpMyAdmin</span>, <a href="https://tailwindcss.com/" class="text-red-500 underline">Tailwind</a>, ...</p>
+                                <ul class="mt-4">
+                                    <h3>Links:</h3>
+                                    <li><a href="https://github.com/DavidBaekeland/B-Audio" class="underline">Github (code)</a></li>
+                                </ul>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </body>
+        <div class="max-w-6xl mx-auto sm:px-6 lg:px-8">
+            <div class="mt-8 bg-white dark:bg-gray-800 overflow-hidden shadow sm:rounded-lg">
+                <div>
+                    <div class="p-6">
+                        <div class="grid grid-cols-2 gap-4">
+                            <img src="{{asset('storage/feedback-tool-DB-1.png')}}" alt="Foto van B-Audio" class="mb-4 sm:rounded-lg">
+                            <img src="{{asset('storage/feedback-tool-DB-2.png')}}" alt="Foto van B-Audio" class="mb-4 sm:rounded-lg">
+                            <img src="{{asset('storage/feedback-tool-DB-3.png')}}" alt="Foto van B-Audio" class="mb-4 sm:rounded-lg">
+                            <img src="{{asset('storage/feedback-tool-DB-4.png')}}" alt="Foto van B-Audio" class="mb-4 sm:rounded-lg">
+                            <img src="{{asset('storage/feedback-tool-DB-5.png')}}" alt="Foto van B-Audio" class="mb-4 sm:rounded-lg">
+                            <img src="{{asset('storage/feedback-tool-DB-6.png')}}" alt="Foto van B-Audio" class="mb-4 sm:rounded-lg">
+                            <img src="{{asset('storage/feedback-tool-DB-7.png')}}" alt="Foto van B-Audio" class="mb-4 sm:rounded-lg">
+                            <img src="{{asset('storage/feedback-tool-DB-8.png')}}" alt="Foto van B-Audio" class="mb-4 sm:rounded-lg">
+                            <img src="{{asset('storage/feedback-tool-DB-9.png')}}" alt="Foto van B-Audio" class="mb-4 sm:rounded-lg">
+                        </div>
+                        <div class="ml-4 text-lg leading-7 font-semibold">Feedback tool</div>
+
+                        <div class="ml-4">
+                            <div class="mt-2 text-gray-600 dark:text-gray-400 text-sm">
+                                <p>Als eindwerkstuk voor de cursus 'Backend' heb ik een feedback tool gemaakt voor psychologen. De bedoeling is dat een psycholoog, na een sessie met een patient, een vragenlijst kan opstellen en kan doorsturen naar de patient. Wanneer de patient dit heeft ingevuld kan de psycholoog aan de hand van statisieken (die gegenereerd worden) een analyse maken. </p>
+
+                                <p class="mt-4">Deze website had ik geplaatst op een <a href="https://rockylinux.org/nl/" class="text-red-500 underline">Linux (Rocky)</a> server van <a href="https://www.erasmushogeschool.be/nl" class="text-red-500 underline">Erasmus hogeschool Brussel</a>. (Offline + enkel toegankelijk met VPN)</p>
+                                <p class="mt-4">Voor deze website maak ik gebruik van <span class="text-red-500">PHP</span> / <a href="https://laravel.com/" class="text-red-500 underline">Laravel</a>, <a href="https://www.docker.com/" class="text-red-500 underline">Docker</a>, <span class="text-red-500">Windows subsystem for linux (WSL)</span>, <span class="text-red-500">MySQL</span>, <span class="text-red-500">PhpMyAdmin</span>, <a href="https://tailwindcss.com/" class="text-red-500 underline">Tailwind CSS</a>, <span class="text-red-500">WinSCP (FTP-client)</span>, ...</p>
+                                <ul class="mt-4">
+                                    <h3>Inlog gegevens:</h3>
+                                    <li>email: admin@admin.be</li>
+                                    <li>wachtwoord: admin</li>
+                                </ul>
+                                <ul class="mt-4">
+                                    <h3>Links:</h3>
+                                    <li><a href="https://github.com/DavidBaekeland/B-Audio" class="underline">Github (code)</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="max-w-6xl mx-auto sm:px-6 lg:px-8">
+            <div class="mt-8 bg-white dark:bg-gray-800 overflow-hidden shadow sm:rounded-lg">
+                <div>
+                    <div class="p-6">
+                        <img src="{{asset('storage/portfolio.png')}}" alt="Foto van B-Audio" class="mb-4 sm:rounded-lg">
+                        <div class="ml-4 text-lg leading-7 font-semibold">Portfolio</div>
+
+                        <div class="ml-4">
+                            <div class="mt-2 text-gray-600 dark:text-gray-400 text-sm">
+                                <p>Natuurlijk heb ik deze porfolio ook gemaakt. In deze website bewaar ik de belangerijkste projecten die ik (of samen met andere) de afgelopen jaren heb gemaakt.</p>
+
+                                <p class="mt-4">Ook voor deze website maak ik gebruik van <span class="text-red-500">PHP</span> / <a href="https://laravel.com/" class="text-red-500 underline">Laravel</a>, <a href="https://tailwindcss.com/" class="text-red-500 underline">Tailwind CSS</a>, ...</p>
+                                <ul class="mt-4">
+                                    <h3>Links:</h3>
+                                    <li><a href="https://github.com/DavidBaekeland/B-Audio" class="underline">Github (code)</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+</body>
 </html>

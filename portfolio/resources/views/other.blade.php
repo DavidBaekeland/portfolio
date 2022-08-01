@@ -19,7 +19,7 @@
             <div class="flex-row mt-4 ">
                 <a href="{{ route('home') }}">
                     <div class="max-w-6xl mx-auto sm:px-6 lg:px-8" >
-                        <h1 class="text-3xl font-semibold text-red-500 ">Android</h1>
+                        <h1 class="text-3xl font-semibold text-red-500 ">Other</h1>
                         <h2 class="text-gray-600">David Baekeland</h2>
                     </div>
                 </a>
@@ -29,7 +29,7 @@
                         <div>
                             <div class="p-6">
                                 <a href="https://endearing-malasada-97df5d.netlify.app/"><img src="{{asset('storage/hln.png')}}" alt="Foto van Recepten app" class="mb-4 sm:rounded-lg"></a>
-                                <div class="ml-4 text-lg leading-7 font-semibold"><a href="https://laravel.com/docs" class="underline text-gray-900 dark:text-white">Recepten app</a></div>
+                                <div class="ml-4 text-lg leading-7 font-semibold"><a href="https://laravel.com/docs" class="underline text-gray-900 dark:text-white">Kotlin</a></div>
 
                                 <div class="ml-4">
                                     <div class="mt-2 text-gray-600 dark:text-gray-400 text-sm">
