@@ -24,22 +24,41 @@
             </div>
         </a>
 
+
         <div class="max-w-6xl mx-auto sm:px-6 lg:px-8">
             <div class="mt-8 bg-white dark:bg-gray-800 overflow-hidden shadow sm:rounded-lg">
                 <div>
                     <div class="p-6">
-                        <img src="{{asset('storage/hln.png')}}" alt="Foto van B-Audio" class="mb-4 sm:rounded-lg">
+                        <img src="{{asset('storage/portfolio.png')}}" alt="Foto van portfolio" class="mb-4 sm:rounded-lg">
+                        <div class="ml-4 text-lg leading-7 font-semibold">Portfolio</div>
+
+                        <div class="ml-4">
+                            <div class="mt-2 text-gray-600 dark:text-gray-400 text-sm">
+                                <p>Natuurlijk heb ik deze porfolio ook gemaakt. In deze website bewaar ik de belangerijkste projecten die ik (of samen met andere) de afgelopen jaren heb gemaakt.</p>
+
+                                <p class="mt-4">Ook voor deze website maak ik gebruik van <span class="text-red-500">PHP</span> / <a href="https://laravel.com/" class="text-red-500 underline">Laravel</a>, <a href="https://tailwindcss.com/" class="text-red-500 underline">Tailwind CSS</a>, <a href="https://laravel.com/docs/9.x/vite" class="text-red-500 underline">Vite (Laravel)</a>, ...</p>
+                                <ul class="mt-4">
+                                    <h3>Links:</h3>
+                                    <li><a href="https://github.com/DavidBaekeland/portfolio" class="underline">Github (code)</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="max-w-6xl mx-auto sm:px-6 lg:px-8">
+            <div class="mt-8 bg-white dark:bg-gray-800 overflow-hidden shadow sm:rounded-lg">
+                <div>
+                    <div class="p-6">
                         <div class="ml-4 text-lg leading-7 font-semibold">B-Audio (work in progress)</div>
 
                         <div class="ml-4">
                             <div class="mt-2 text-gray-600 dark:text-gray-400 text-sm">
-                                <p>Momenteel ben ik voor <span class="text-red-500">B-Audio</span> , een wetenschappelijke organisatie, een website aan het ontwikkelen. Het doel van deze website is om een <span class="text-red-500">portfolio</span>  te maken waarbij leden gemakkelijk wetenschappelijke kennis over Audiologie en Logepedie kunnen bijhouden en delen.</p>
+                                <p>Momenteel ben ik voor <span class="text-red-500">B-Audio</span>, een wetenschappelijke organisatie, een website aan het ontwikkelen. Het doel van deze website is om leden te informeren over aankomende (wetenschappelijke) events. Daarbij zal ieder lid van de vereniging via een een persoonlijk <span class="text-red-500">portfolio</span> zijn / haar gegevens kunnen beheren.</p>
 
-                                <p class="mt-4">Voor deze website maak ik gebruik van <span class="text-red-500">PHP</span> / <a href="https://laravel.com/" class="text-red-500 underline">Laravel</a>, <span class="text-red-500">MySQL</span>, <span class="text-red-500">PhpMyAdmin</span>, <a href="https://tailwindcss.com/" class="text-red-500 underline">Tailwind</a>, ...</p>
-                                <ul class="mt-4">
-                                    <h3>Links:</h3>
-                                    <li><a href="https://github.com/DavidBaekeland/B-Audio" class="underline">Github (code)</a></li>
-                                </ul>
+                                <p class="mt-4">Voor deze website maak ik gebruik van <span class="text-red-500">PHP</span> / <a href="https://laravel.com/" class="text-red-500 underline">Laravel</a>, <span class="text-red-500">MySQL</span>, <span class="text-red-500">PhpMyAdmin</span>, <a href="https://tailwindcss.com/" class="text-red-500 underline">Tailwind CSS</a>, ...</p>
                             </div>
                         </div>
                     </div>
@@ -51,15 +70,15 @@
                 <div>
                     <div class="p-6">
                         <div class="grid grid-cols-2 gap-4">
-                            <img src="{{asset('storage/feedback-tool-DB-1.png')}}" alt="Foto van B-Audio" class="mb-4 sm:rounded-lg">
-                            <img src="{{asset('storage/feedback-tool-DB-2.png')}}" alt="Foto van B-Audio" class="mb-4 sm:rounded-lg">
-                            <img src="{{asset('storage/feedback-tool-DB-3.png')}}" alt="Foto van B-Audio" class="mb-4 sm:rounded-lg">
-                            <img src="{{asset('storage/feedback-tool-DB-4.png')}}" alt="Foto van B-Audio" class="mb-4 sm:rounded-lg">
-                            <img src="{{asset('storage/feedback-tool-DB-5.png')}}" alt="Foto van B-Audio" class="mb-4 sm:rounded-lg">
-                            <img src="{{asset('storage/feedback-tool-DB-6.png')}}" alt="Foto van B-Audio" class="mb-4 sm:rounded-lg">
-                            <img src="{{asset('storage/feedback-tool-DB-7.png')}}" alt="Foto van B-Audio" class="mb-4 sm:rounded-lg">
-                            <img src="{{asset('storage/feedback-tool-DB-8.png')}}" alt="Foto van B-Audio" class="mb-4 sm:rounded-lg">
-                            <img src="{{asset('storage/feedback-tool-DB-9.png')}}" alt="Foto van B-Audio" class="mb-4 sm:rounded-lg">
+                            <img src="{{asset('storage/feedback-tool-DB-1.png')}}" alt="Foto van login" class="mb-4 sm:rounded-lg">
+                            <img src="{{asset('storage/feedback-tool-DB-2.png')}}" alt="Foto van dashboard" class="mb-4 sm:rounded-lg">
+                            <img src="{{asset('storage/feedback-tool-DB-3.png')}}" alt="Foto van vraag toevoegen" class="mb-4 sm:rounded-lg">
+                            <img src="{{asset('storage/feedback-tool-DB-4.png')}}" alt="Foto van lijst vragen toevoegen" class="mb-4 sm:rounded-lg">
+                            <img src="{{asset('storage/feedback-tool-DB-5.png')}}" alt="Foto van lijst" class="mb-4 sm:rounded-lg">
+                            <img src="{{asset('storage/feedback-tool-DB-6.png')}}" alt="Foto van overzicht sessies" class="mb-4 sm:rounded-lg">
+                            <img src="{{asset('storage/feedback-tool-DB-7.png')}}" alt="Foto van sessie" class="mb-4 sm:rounded-lg">
+                            <img src="{{asset('storage/feedback-tool-DB-8.png')}}" alt="Foto van overzicht sessies" class="mb-4 sm:rounded-lg">
+                            <img src="{{asset('storage/feedback-tool-DB-9.png')}}" alt="Foto van resultaat van sessie" class="mb-4 sm:rounded-lg">
                         </div>
                         <div class="ml-4 text-lg leading-7 font-semibold">Feedback tool</div>
 
@@ -68,7 +87,7 @@
                                 <p>Als eindwerkstuk voor de cursus 'Backend' heb ik een feedback tool gemaakt voor psychologen. De bedoeling is dat een psycholoog, na een sessie met een patient, een vragenlijst kan opstellen en kan doorsturen naar de patient. Wanneer de patient dit heeft ingevuld kan de psycholoog aan de hand van statisieken (die gegenereerd worden) een analyse maken. </p>
 
                                 <p class="mt-4">Deze website had ik geplaatst op een <a href="https://rockylinux.org/nl/" class="text-red-500 underline">Linux (Rocky)</a> server van <a href="https://www.erasmushogeschool.be/nl" class="text-red-500 underline">Erasmus hogeschool Brussel</a>. (Offline + enkel toegankelijk met VPN)</p>
-                                <p class="mt-4">Voor deze website maak ik gebruik van <span class="text-red-500">PHP</span> / <a href="https://laravel.com/" class="text-red-500 underline">Laravel</a>, <a href="https://www.docker.com/" class="text-red-500 underline">Docker</a>, <span class="text-red-500">Windows subsystem for linux (WSL)</span>, <span class="text-red-500">MySQL</span>, <span class="text-red-500">PhpMyAdmin</span>, <a href="https://tailwindcss.com/" class="text-red-500 underline">Tailwind CSS</a>, <span class="text-red-500">WinSCP (FTP-client)</span>, ...</p>
+                                <p class="mt-4">Voor deze website maak ik gebruik van <span class="text-red-500">PHP</span> / <a href="https://laravel.com/" class="text-red-500 underline">Laravel</a>, <a href="https://www.docker.com/" class="text-red-500 underline">Docker</a>, <span class="text-red-500">Windows subsystem for linux (WSL)</span>, <span class="text-red-500">MySQL</span>, <span class="text-red-500">PhpMyAdmin</span>, <a href="https://tailwindcss.com/" class="text-red-500 underline">Tailwind CSS</a>, <span class="text-red-500">WinSCP (FTP-client)</span>, <a href="https://github.com/fxcosta/laravel-chartjs" class="text-red-500 underline">ChartJS (Laravel)</a>,  ...</p>
                                 <ul class="mt-4">
                                     <h3>Inlog gegevens:</h3>
                                     <li>email: admin@admin.be</li>
@@ -85,28 +104,6 @@
             </div>
         </div>
 
-        <div class="max-w-6xl mx-auto sm:px-6 lg:px-8">
-            <div class="mt-8 bg-white dark:bg-gray-800 overflow-hidden shadow sm:rounded-lg">
-                <div>
-                    <div class="p-6">
-                        <img src="{{asset('storage/portfolio.png')}}" alt="Foto van B-Audio" class="mb-4 sm:rounded-lg">
-                        <div class="ml-4 text-lg leading-7 font-semibold">Portfolio</div>
-
-                        <div class="ml-4">
-                            <div class="mt-2 text-gray-600 dark:text-gray-400 text-sm">
-                                <p>Natuurlijk heb ik deze porfolio ook gemaakt. In deze website bewaar ik de belangerijkste projecten die ik (of samen met andere) de afgelopen jaren heb gemaakt.</p>
-
-                                <p class="mt-4">Ook voor deze website maak ik gebruik van <span class="text-red-500">PHP</span> / <a href="https://laravel.com/" class="text-red-500 underline">Laravel</a>, <a href="https://tailwindcss.com/" class="text-red-500 underline">Tailwind CSS</a>, ...</p>
-                                <ul class="mt-4">
-                                    <h3>Links:</h3>
-                                    <li><a href="https://github.com/DavidBaekeland/portfolio" class="underline">Github (code)</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
     </div>
 
 </div>
