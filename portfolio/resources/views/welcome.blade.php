@@ -37,7 +37,7 @@
                             </div>
 
                             <div class="p-6 py-6 border-t border-gray-200 dark:border-gray-700 md:border-l">
-                                <div class="text-center ml-4 text-lg leading-7 font-semibold text-gray-900 dark:text-white"><a href="{{ route('other') }}" class="text-gray-900 dark:text-white">Other</a></div>
+                                <div class="text-center ml-4 text-lg leading-7 font-semibold text-gray-900 dark:text-white"><a href="{{ route('other') }}" class="text-gray-900 dark:text-white">Ander</a></div>
                             </div>
                         </div>
                     </div>
