@@ -28,7 +28,6 @@
                     <div class="mt-8 bg-white dark:bg-gray-800 overflow-hidden shadow sm:rounded-lg">
                         <div>
                             <div class="p-6">
-                                <a href="https://endearing-malasada-97df5d.netlify.app/"><img src="{{asset('storage/hln.png')}}" alt="Foto van Recepten app" class="mb-4 sm:rounded-lg"></a>
                                 <div class="ml-4 text-lg leading-7 font-semibold">Recepten app</div>
 
                                 <div class="ml-4">
