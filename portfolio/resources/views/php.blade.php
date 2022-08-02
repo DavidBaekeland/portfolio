@@ -99,7 +99,7 @@
                                 <p class="mt-4">Ook voor deze website maak ik gebruik van <span class="text-red-500">PHP</span> / <a href="https://laravel.com/" class="text-red-500 underline">Laravel</a>, <a href="https://tailwindcss.com/" class="text-red-500 underline">Tailwind CSS</a>, ...</p>
                                 <ul class="mt-4">
                                     <h3>Links:</h3>
-                                    <li><a href="https://github.com/DavidBaekeland/B-Audio" class="underline">Github (code)</a></li>
+                                    <li><a href="https://github.com/DavidBaekeland/portfolio" class="underline">Github (code)</a></li>
                                 </ul>
                             </div>
                         </div>
