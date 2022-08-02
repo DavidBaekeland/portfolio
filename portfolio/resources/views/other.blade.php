@@ -28,17 +28,18 @@
                     <div class="mt-8 bg-white dark:bg-gray-800 overflow-hidden shadow sm:rounded-lg">
                         <div>
                             <div class="p-6">
-                                <a href="https://endearing-malasada-97df5d.netlify.app/"><img src="{{asset('storage/hln.png')}}" alt="Foto van Recepten app" class="mb-4 sm:rounded-lg"></a>
-                                <div class="ml-4 text-lg leading-7 font-semibold"><a href="https://laravel.com/docs" class="underline text-gray-900 dark:text-white">Kotlin</a></div>
+                                <div class="ml-4 text-lg leading-7 font-semibold">Kotlin</div>
 
                                 <div class="ml-4">
                                     <div class="mt-2 text-gray-600 dark:text-gray-400 text-sm">
-                                        <p>Voor het eindwerk van de cursus "Android" heb ik een recepten app ontwikkelt waarbij ik data ophaal van een externe bron (<a href="https://spoonacular.com/food-api" class="text-red-500 underline">API</a>). De gebruiker kan vervolgens  <span class="text-red-500">filteren</span> op bepaalde gerechten. Vervolgens toon ik deze data met verschillende <span class="text-red-500">recycleviews</span>, <span class="text-red-500">cardviews</span>, ... .</p>
+                                        <p>Tijdens mijn opleiding heb ik ook geprogrammeerd met <a href="https://kotlinlang.org/" class="text-red-500 underline">Kotlin</a>. Dit heb ik niet alleen gebruikt om <a href="{{ route('android') }}" class="text-red-500 underline">Android</a> apps te maken, maar ook om samen met <a href="https://spring.io/guides/tutorials/spring-boot-kotlin/" class="text-red-500 underline">Spring boot en Thymeleaf (zie Github link)</a> om websites te ontwikkelen.
 
-                                        <p class="mt-4">Tot slot kan de gebruiker recepten als favorieten opslaan. Dit word vervolgens opgeslagen in <a href="https://firebase.google.com/products/firestore" class="text-red-500 underline">Firebase/Firestore</a>. Deze data wordt dan getoond in een andere <span class="text-red-500">fragment</span>.</p>
+                                        <p class="mt-4">Tot slot heb ik <a href="https://kotlinlang.org/" class="text-red-500 underline">Kotlin</a> ook gebruikt om algemene concepten van programmeren te begrijpen zoals: <span class="text-red-500">Object Georiënteerd Programmeren (OOP)</span>, <span class="text-red-500">design patterns</span>, ... .</p>
+
+                                        <p>Mijn IDE die ik hiervoor gebruik is <a href="https://www.jetbrains.com/idea/" class="text-red-500 underline">IntelliJ IDEA (Ultimate)</a>. </p>
                                         <ul class="mt-4">
                                             <h3>Links:</h3>
-                                            <li><a href="https://github.com/DavidBaekeland/Android" class="underline">Github (code)</a></li>
+                                            <li><a href="https://github.com/DavidBaekeland/kotlin" class="underline">Github (code)</a></li>
                                         </ul>
                                     </div>
                                 </div>
